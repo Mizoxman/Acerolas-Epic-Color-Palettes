@@ -63,7 +63,10 @@ function oklab_to_linear_srgb(L, a, b) {
   ];
 }
 
-function oklch_to_oklab(L, c, h) {
+function oklch_to_oklab(Lr, c, h) {
+  // Mizox Modification: use OKLAB Lr lightness rather than L
+  let L = ((Lr * (Lr + 0.206)) / ((1.206/1.03) * (Lr + 0.03)))
+  
   return [(L), (c * Math.cos(h)), (c * Math.sin(h))];
 }
 
