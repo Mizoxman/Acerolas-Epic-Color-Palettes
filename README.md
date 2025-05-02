@@ -2,3 +2,5 @@
 Color palette tool used in Acerola's video:
 
 [![Your Colors Suck (it's not your fault)](https://github.com/evannorton/Acerolas-Epic-Color-Palettes/assets/35230033/b15e985a-d5eb-47c8-9df3-3aa73e1a7b69)](https://www.youtube.com/watch?v=fv-wlo8yVhk)
+
+the contrast between darker colors was low, so I made an adjustment so it'd use Lr lightness rather than L, based on this post: https://bottosson.github.io/posts/colorpicker/#intermission---a-new-lightness-estimate-for-oklab
